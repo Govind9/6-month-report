@@ -1,21 +1,16 @@
-# latex-Document
-This folder contain latex document for creating pdf with screen version and print version .
+6-week-report
+=============
 
-# software used -:
-    1. Sagemath
-    2. LaTeX
+This repository contains the Report for my six weeks training.
+To use this:
+First of all, install LaTeX by typing command in the terminal:
+    sudo apt-get install texlive-full
+After installing this, go to the directory 6-week-report through terminal and type:
+    pdflatex report.tex
+It will produce a pdf file named "report.pdf" in the current directory. Open that using this command:
+    evince report.pdf
 
-# Packages -: 
-    1. comment.sty
-    2. makecmds.sty
-    3. pdfscreen.sty
-    4. truncate.sty
-
-# Execution of commands for creating pdf  -:
-    1. latex matrix.tex
-    2. sage matrix.sagetex.sage
-    3. pdflatex matrix.tex
-
-### Note -:
-    1. To change pdf from screen version to print version change screen with print in line (\usepackage[screen,panelright,paneltoc]{pdfscreen}) in matrix.tex
-    2. You have to edit matrix.sagetex.sout which is created during process for desired brackets around matrix
+======Thanks======
+Mandeep Singh
+mandeep7.wordpress.com
+github.com/mandeeps708
